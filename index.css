@@ -325,6 +325,148 @@
     background-color: gray;
     margin-top: 40px;
 }
-
+@media screen and (max-width:600px){
+    .navbar1{
+        font-size: 19px;
+        height: 5vh;
+    }
+    .navbar1 .one1 ul{
+        width: 550px;
+    }
+    .navbar1 .one2 ul{
+        width: 250px;
+    }
+    .navbar2{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 30vh;
+    }
+    .navbar2 .two1{
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 40px;
+    }
+    .navbar2 .two1 img{
+        width: 380px; 
+    }
+    .navbar2 .two1 ul{
+        font-size: 25px;
+        width: 550px;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    .navbar2 .two2{
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 45px;
+    }
+    .navbar2 .two2 .two21{
+        justify-content: space-between;
+        width: 1000px;
+        height: 12vh;
+    }
+    .navbar2 .two21 input{
+        font-size: 26px;
+        width: 700px;
+        padding-left: 34px;
+    }
+    .navbar2 .two2 .two22{
+        display: none;
+    }
+    .navbar2 .two2 .two23{
+        justify-content: space-around;
+        width: 300px;
+        font-size: 30px;
+    }
+    .navbar2 .two2 .two23 img{
+        width: 45px;
+    }
+    .navbar4 ul{
+        height: 13vh;
+        align-items: center;
+        font-size: 26px;
+        margin: 0;
+        padding: 0 180px;
+    }
+    .nonfixed_part{
+        padding-top: 370px;
+        width: 100%;
+    }
+    .nonfixed_part .navbar5 .five1{
+        display: flex;
+        flex-direction: column;
+    }
+    .nonfixed_part .navbar5 .five1 img{
+        width: 1265px;
+        padding: 10px 20px;
+    }
+    .nonfixed_part .navbar5 .five2 img{
+        width: 1265px;
+        padding: 0px 20px;
+    }
+    .nonfixed_part .navbar5 .five3{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        margin-left: 450px;
+    }
+    .nonfixed_part .navbar5 .five3 .five31 img{
+        width: 153px;
+    }
+    .nonfixed_part .five7{
+        margin-left: 450px;
+    }
+    .nonfixed_part .five7 .five71 img{
+        width: 205px;
+    }
+    .nonfixed_part .five8{
+        margin-left: 450px;
+    }
+    .nonfixed_part .five8 .five81 img{
+        width: 205px;
+    }
+    .nonfixed_part .five10{
+        margin-left: 628px;
+    }
+    .nonfixed_part .five10 img{
+        width: 609px;
+    }
+    .nonfixed_part .five11{
+        margin-left: 628px;
+    }
+    .nonfixed_part .five11 img{
+        width: 609px;
+    }
+    .nonfixed_part .five13{
+        margin-left: 445px;
+    }
+    .nonfixed_part .five13 img{
+        width: 205px;
+    }
+    .nonfixed_part .five14{
+        margin-left: 25px;
+    }
+    .nonfixed_part .five14 img{
+        width: 405px;
+    }
+    .nonfixed_part .five16{
+        margin-left: 630px;
+    }
+    .nonfixed_part .five16 img{
+        width: 205px;
+    }
+    .footer{
+        justify-content: center;
+        width: 1250px;
+        margin-bottom: 700px;
+    }
+    .footer .footer1{
+        padding: 0px;
+    }
+    }
 
 
